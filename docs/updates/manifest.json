@@ -2,7 +2,7 @@
   "schema": 1,
   "app": {
     "version": "1.0.0-beta.1",
-    "release_page": "",
+    "release_page": "https://github.com/emanhaz879/assignment-reminder/releases/tag/v1.0.0-beta.1",
     "notes": "Initial Windows beta: assignment tabs, automatic reminders and customizable themes."
   },
   "themes": [
