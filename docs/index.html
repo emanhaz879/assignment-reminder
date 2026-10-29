@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assignment Reminder: a customizable Windows desktop app for student deadlines, file shortcuts and reminders.">
+  <title>Assignment Reminder — Windows desktop app</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <header class="topnav">
+    <a class="brand" href="#home" aria-label="Assignment Reminder home"><span class="mark">✦</span> Assignment Reminder</a>
+    <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#themes">Themes</a><a href="#download">Download</a><a href="#help">Help</a></nav>
+    <span class="top-pill">WINDOWS DESKTOP</span>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">A STUDENT-MADE DESKTOP APPLICATION</div>
+        <h1>Assignments organized.<br><em>Deadlines remembered.</em></h1>
+        <p>Keep every deadline, working file and reference link in one place. Your reminders are local, and the interface can change with your favorite theme.</p>
+        <div class="buttons"><a class="btn primary" href="#download">Get the Windows beta</a><a class="btn secondary" href="#themes">Explore themes</a></div>
+        <small>No account needed for local assignment tracking. Windows 10/11 desktop.</small>
+      </div>
+      <div class="demo-window" aria-label="Illustration of Assignment Reminder interface">
+        <div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><span>Assignment Reminder</span><span>⋮</span></div>
+        <div class="tabs"><b>Science project</b><span>Pedagogy essay</span><strong>+</strong></div>
+        <div class="mock-body">
+          <div class="mock-card"><span class="hint">Assignment details</span><h3>Science project</h3><div class="mock-field">16-11-26 <span>📅</span></div><div class="mock-grid"><div class="mock-field">2 days before</div><div class="mock-field">09 : 30</div></div></div>
+          <div class="mock-card"><span class="hint">Files & resources</span><div class="mock-field">📄 Science_Project.docx</div><div class="mock-field">🔗 Canva presentation</div></div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="section"><div class="section-head"><span class="eyebrow">MADE FOR STUDYING</span><h2>Everything beside your deadline</h2></div>
+      <div class="feature-grid">
+        <article><div class="feature-icon">◷</div><h3>Smarter reminders</h3><p>Choose the first alert's date and time. Daily follow-ups appear when you sign in, not in the middle of a game or call.</p></article>
+        <article><div class="feature-icon">▣</div><h3>Quick resources</h3><p>Open assignment files and saved links without searching through folders and bookmarks.</p></article>
+        <article><div class="feature-icon">✦</div><h3>Custom themes</h3><p>Choose the familiar Classic look or install compatible external PySide6 theme packages.</p></article>
+      </div>
+    </section>
+    <section id="themes" class="section"><div class="section-head"><span class="eyebrow">MAKE IT YOURS</span><h2>Theme gallery</h2><p>Visual styles can be added separately from the main application.</p></div>
+      <div class="theme-grid">
+        <article class="theme-card"><div class="theme-visual classic"><span>Assignment Reminder</span><div class="preview-lines"><i></i><i></i><i></i></div></div><h3>Classic</h3><p>Focused and familiar.</p></article>
+        <article class="theme-card"><div class="theme-visual dark"><span>Assignment Reminder</span><div class="preview-lines"><i></i><i></i><i></i></div></div><h3>Dark</h3><p>A calmer evening workspace.</p></article>
+        <article class="theme-card"><div class="theme-visual astronaut"><span>MISSION CONTROL</span><div class="orbit"></div></div><h3>Astronaut Adventures</h3><p>A galaxy-inspired desktop look.</p><a id="astronaut-release" class="theme-download" hidden rel="noopener noreferrer" target="_blank">Download theme</a></article>
+      </div>
+    </section>
+    <section id="download" class="section download-section"><div><span class="eyebrow">WINDOWS BETA</span><h2>Ready when you are.</h2><p>Download the installer or portable ZIP from the official GitHub release page when the first build is published.</p><div id="version" class="version">Release not published yet</div></div>
+      <div class="download-box"><span class="mini-label">OFFICIAL DOWNLOAD</span><a id="download-link" class="btn primary disabled-link" aria-disabled="true">Download for Windows — coming soon</a><p id="download-note">The website is ready. A verified Windows build has not yet been uploaded.</p></div></section>
+    <section id="help" class="section"><div class="section-head"><span class="eyebrow">GOOD TO KNOW</span><h2>Install, update and uninstall</h2></div>
+      <div class="help-grid"><article><h3>Install</h3><p>Download the installer from a published GitHub Release and follow the Windows prompts.</p></article><article><h3>Update</h3><p>When an update is published, Assignment Reminder can show a small optional banner linking to its release page.</p></article><article><h3>Open</h3><p>Launch from your Windows Start Menu or desktop shortcut. An ordinary website cannot detect all installed apps.</p></article><article><h3>Uninstall</h3><p>Use Windows Settings → Apps → Installed apps → Assignment Reminder → Uninstall.</p></article></div>
+      <p class="warning">An unsigned beta installer may trigger Windows Smart App Control or SmartScreen. A website does not bypass Windows security checks.</p>
+    </section>
+  </main>
+  <footer><span>Assignment Reminder · Independent student project</span><span>GitHub Pages · Desktop beta</span></footer>
+</body>
+</html>

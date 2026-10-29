@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "app": {
+    "version": "1.0.0-beta.1",
+    "release_page": "",
+    "notes": "Initial Windows beta: assignment tabs, automatic reminders and customizable themes."
+  },
+  "themes": [
+    {
+      "name": "Astronaut Adventures",
+      "version": "1.0.0",
+      "min_app_version": "1.0.0-beta.1",
+      "release_page": "",
+      "notes": "Galaxy background and space-inspired interface."
+    }
+  ]
+}
