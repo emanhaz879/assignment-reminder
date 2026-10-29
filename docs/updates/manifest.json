@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "app": {"installer_url": "https://github.com/emanhaz879/assignment-reminder/releases/download/v1.0.0-beta.2/Assignment_Reminder_Setup_Beta2.exe"
+  "app": {"installer_url": "https://github.com/emanhaz879/assignment-reminder/releases/download/v1.0.0-beta.2/Assignment_Reminder_Setup_Beta2.exe",
     "version": "1.0.0-beta.2",
     "release_page": "https://github.com/emanhaz879/assignment-reminder/releases/tag/v1.0.0-beta.2",
     "notes": "Initial Windows beta: assignment tabs, automatic reminders and customizable themes."
